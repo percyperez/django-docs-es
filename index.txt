@@ -33,29 +33,66 @@ Consiguiendo ayuda
 Primeros pasos
 ==============
 
-    * **Desde cero:** :ref:`General <intro-overview>` | :ref:`Instalación <intro-install>`
-    * **Tutorial:** :ref:`Parte 1 <intro-tutorial01>` | :ref:`Parte 2 <intro-tutorial02>` | :ref:`Parte 3 <intro-tutorial03>` | :ref:`Parte 4 <intro-tutorial04>`
+    * **Desde cero:** 
+      :doc:`General <intro-overview>` | 
+      :doc:`Instalación <intro-install>`
 
-La capa de modelo
+    * **Tutorial:** 
+      :doc:`Parte 1 <intro-tutorial01>` | 
+      :doc:`Parte 2 <intro-tutorial02>` | 
+      :doc:`Parte 3 <intro-tutorial03>` | 
+      :doc:`Parte 4 <intro-tutorial04>`
+
+La sección modelo
 =================
 
-    * **Modelos:** :ref:`Sintaxis de modelos <topics-db-models>` | :ref:`Tipos de campo <ref-models-fields>` | :ref:`Opciones Meta <ref-models-options>`
-    * **QuerySets:** :ref:`Ejecutando queries <topics-db-queries>` | :ref:`Referencia de métodos QuerySet <ref-models-querysets>`
-    * **Instancias de modelo:** :ref:`Métodos de instancia <ref-models-instances>` | :ref:`Accediendo a objetos relacionados <ref-models-relations>`
-    * **Avanzado:** :ref:`Managers <topics-db-managers>` | :ref:`SQL puro <topics-db-sql>` | :ref:`Transacciones <topics-db-transactions>` | :ref:`Campos personalizados <howto-custom-model-fields>`
-    * **Other:** :ref:`Bases de datos soportadas <ref-databases>` | :ref:`Bases de datos existentes <howto-legacy-databases>` | :ref:`Proveyendo datos iniciales <howto-initial-data>`
+    * **Modelos:** 
+      :doc:`Sintaxis de modelos <topics-db-models>` | 
+      :doc:`Tipos de campo <ref-models-fields>` | 
+      :doc:`Opciones Meta <ref-models-options>`
+    
+    * **QuerySets:** 
+      :doc:`Ejecutando queries <topics-db-queries>` | 
+      :doc:`Referencia de métodos QuerySet <ref-models-querysets>`
+    
+    * **Instancias de modelo:** 
+      :doc:`Métodos de instancia <ref-models-instances>` | 
+      :doc:`Accediendo a objetos relacionados <ref-models-relations>`
+    
+    * **Avanzado:** 
+      :doc:`Managers <topics-db-managers>` | 
+      :doc:`SQL puro <topics-db-sql>` | 
+      :doc:`Transacciones <topics-db-transactions>` | 
+      :doc:`Campos personalizados <howto-custom-model-fields>`
+    
+    * **Otro:** 
+      :doc:`Bases de datos soportadas <ref-databases>` | 
+      :doc:`Bases de datos existentes <howto-legacy-databases>` | 
+      :doc:`Proveyendo datos iniciales <howto-initial-data>`
 
-La capa de plantilla
-====================
+La sección de plantilla
+=======================
 
-    * **Para diseñadores:** :ref:`Sintaxis general <topics-templates>` | :ref:`Tags y filtros incluidos <ref-templates-builtins>`
-    * **Para programadores:** :ref:`API de plantillas <ref-templates-api>` | :ref:`Tags y filtros propios <howto-custom-template-tags>`
+    * **Para diseñadores:** 
+      :doc:`Sintaxis general <topics-templates>` | 
+      :doc:`Tags y filtros incluidos <ref-templates-builtins>`
+    
+    * **Para programadores:** 
+      :doc:`API de plantillas <ref-templates-api>` | 
+      :doc:`Tags y filtros propios <howto-custom-template-tags>`
 
-La capa de vista
-================
+La sección de vista
+===================
 
-    * **Lo básico:** :ref:`URLconfs <topics-http-urls>` | :ref:`Funciones de vista <topics-http-views>` | :ref:`Atajos <topics-http-shortcuts>`
-    * **Referencia:** :ref:`Objetos Request/response <ref-request-response>`
+    * **Lo básico:** 
+      :doc:`URLconfs <topics-http-urls>` | 
+      :doc:`Funciones de vista <topics-http-views>` | 
+      :doc:`Atajos <topics-http-shortcuts>`
+    
+    * **Referencia:** 
+      :doc:`Objetos Request/response <ref-request-response>`
+      :doc:`Objetos TemplateResponse <ref/template-response>`
+    
     * **Subir archivos:** :ref:`General <topics-http-file-uploads>` | :ref:`Objetos File <ref-files-file>` | :ref:`API de almacenamiento <ref-files-storage>` | :ref:`Gestionando archivos <topics-files>` | :ref:`Almacenamiento personalizado <howto-custom-file-storage>`
     * **Avanzado:** :ref:`Vistas genéricas <ref-generic-views>` | :ref:`Generando CSV <howto-outputting-csv>` | :ref:`Generando PDF <howto-outputting-pdf>`
     * **Middleware:** :ref:`General <topics-http-middleware>` | :ref:`Clases middleware incluidas <ref-middleware>`
