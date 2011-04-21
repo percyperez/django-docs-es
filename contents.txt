@@ -1,0 +1,41 @@
+.. _contents:
+
+========================================
+Contenidos de la documentación de Django
+========================================
+
+.. toctree::
+   :hidden:
+
+   index
+
+.. toctree::
+   :maxdepth: 3
+   
+   intro/index
+   topics/index
+   howto/index
+   faq/index
+   ref/index
+   misc/index
+   glossary
+   releases/index
+   internals/index
+
+Indices, glosario y tablas
+==========================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`glossary`
+
+Documentación antigua/obsoleta
+==============================
+
+La siguiente documentación cubre las características que han desaparecido o han
+sido reemplazadas en nuevas versiones de Django.
+
+.. toctree::
+   :maxdepth: 2
+   
+   obsolete/index

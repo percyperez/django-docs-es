@@ -1,0 +1,114 @@
+.. _index:
+
+=======================
+Documentación de Django
+=======================
+
+.. rubric:: Todo lo que necesitas saber sobre Django (y algo más).
+
+Consiguiendo ayuda
+==================
+
+¿Tienes problemas? ¡Nos encantaría ayudar!
+
+* Prueba el :ref:'FAQ <faq-index>' -- tiene respuestas a muchas preguntas comunes.
+
+* ¿Buscando información específica? Prueba el :ref:'genindex', :ref:'modindex' o
+  la :ref:'detallada tabla de contenidos <contents>'.
+
+* Busca por información en los 'archivos de la lista de correo django-users'_, o
+  'publica una pregunta'_.
+
+* Plantea una pregunta en el 'canal #django del IRC'_, o busca en los 'logs del IRC'_ para ver
+  si ha sido planteada anteriormente.
+
+* Reporta bugs de Django en nuestro 'ticket tracker'_.
+
+.. _archivos de la lista de correo django-users: http://groups.google.com/group/django-users/
+.. _plantea una pregunta: http://groups.google.com/group/django-users/
+.. _canal #django del IRC: irc://irc.freenode.net/django
+.. _logs del IRC: http://oebfare.com/logger/django/
+.. _ticket tracker: http://code.djangoproject.com/
+
+Primeros pasos
+==============
+
+    * **Desde cero:** :ref:`General <intro-overview>` | :ref:`Instalación <intro-install>`
+    * **Tutorial:** :ref:`Parte 1 <intro-tutorial01>` | :ref:`Parte 2 <intro-tutorial02>` | :ref:`Parte 3 <intro-tutorial03>` | :ref:`Parte 4 <intro-tutorial04>`
+
+La capa de modelo
+=================
+
+    * **Modelos:** :ref:`Sintaxis de modelos <topics-db-models>` | :ref:`Tipos de campo <ref-models-fields>` | :ref:`Opciones Meta <ref-models-options>`
+    * **QuerySets:** :ref:`Ejecutando queries <topics-db-queries>` | :ref:`Referencia de métodos QuerySet <ref-models-querysets>`
+    * **Instancias de modelo:** :ref:`Métodos de instancia <ref-models-instances>` | :ref:`Accediendo a objetos relacionados <ref-models-relations>`
+    * **Avanzado:** :ref:`Managers <topics-db-managers>` | :ref:`SQL puro <topics-db-sql>` | :ref:`Transacciones <topics-db-transactions>` | :ref:`Campos personalizados <howto-custom-model-fields>`
+    * **Other:** :ref:`Bases de datos soportadas <ref-databases>` | :ref:`Bases de datos existentes <howto-legacy-databases>` | :ref:`Proveyendo datos iniciales <howto-initial-data>`
+
+La capa de plantilla
+====================
+
+    * **Para diseñadores:** :ref:`Sintaxis general <topics-templates>` | :ref:`Tags y filtros incluidos <ref-templates-builtins>`
+    * **Para programadores:** :ref:`API de plantillas <ref-templates-api>` | :ref:`Tags y filtros propios <howto-custom-template-tags>`
+
+La capa de vista
+================
+
+    * **Lo básico:** :ref:`URLconfs <topics-http-urls>` | :ref:`Funciones de vista <topics-http-views>` | :ref:`Atajos <topics-http-shortcuts>`
+    * **Referencia:** :ref:`Objetos Request/response <ref-request-response>`
+    * **Subir archivos:** :ref:`General <topics-http-file-uploads>` | :ref:`Objetos File <ref-files-file>` | :ref:`API de almacenamiento <ref-files-storage>` | :ref:`Gestionando archivos <topics-files>` | :ref:`Almacenamiento personalizado <howto-custom-file-storage>`
+    * **Avanzado:** :ref:`Vistas genéricas <ref-generic-views>` | :ref:`Generando CSV <howto-outputting-csv>` | :ref:`Generando PDF <howto-outputting-pdf>`
+    * **Middleware:** :ref:`General <topics-http-middleware>` | :ref:`Clases middleware incluidas <ref-middleware>`
+
+Formularios
+===========
+
+    * **Lo básico:** :ref:`General <topics-forms-index>` | :ref:`API de formularios <ref-forms-api>` | :ref:`Campos incluidos <ref-forms-fields>` | :ref:`Widgets incluidos <ref-forms-widgets>`
+    * **Avanzado:** :ref:`Formularios para modelos <topics-forms-modelforms>` | :ref:`Integrando media <topics-forms-media>` | :ref:`Sets de formularios <topics-forms-formsets>` | :ref:`Personlaizando la validación <ref-forms-validation>`
+    * **Extras:** :ref:`Previsualización de formularios <ref-contrib-formtools-form-preview>` | :ref:`Asistente de formularios <ref-contrib-formtools-form-wizard>`
+
+El proceso de desarrollo
+========================
+
+    * **Settings:** :ref:`General <topics-settings>` | :ref:`Lista completa de settings <ref-settings>`
+    * **django-admin.py y manage.py:** :ref:`General <ref-django-admin>` | :ref:`Añadiendo comandos propios <howto-custom-management-commands>`
+    * **Testing:** :ref:`General <topics-testing>`
+    * **Despliegue:** :ref:`General <howto-deployment-index>` | :ref:`Apache/mod_python <howto-deployment-modpython>` | :ref:`FastCGI/SCGI/AJP <howto-deployment-fastcgi>` | :ref:`Autencicación con Apache <howto-apache-auth>` | :ref:`Sirviendo archivos estáticos <howto-static-files>` | :ref:`Siguiendo errores de código por e-mail <howto-error-reporting>`
+
+Otras baterías incluidas
+========================
+
+    * :ref:`Sitio de adminstración <ref-contrib-admin>`
+    * :ref:`Autenticación <topics-auth>`
+    * :ref:`Sistema de cache <topics-cache>`
+    * :ref:`Comentarios <ref-contrib-comments-index>`
+    * :ref:`Tipos de contenido <ref-contrib-contenttypes>`
+    * :ref:`Protección de falsificación de peticiones cruzadas entre sitios <ref-contrib-csrf>`
+    * :ref:`Databrowse <ref-contrib-databrowse>`
+    * :ref:`E-mail (envío) <topics-email>`
+    * :ref:`Flatpages <ref-contrib-flatpages>`
+    * :ref:`Humanize <ref-contrib-humanize>`
+    * :ref:`Internacionalización <topics-i18n>`
+    * :ref:`Soporte para Jython <howto-jython>`
+    * :ref:`"Local flavor" <ref-contrib-localflavor>`
+    * :ref:`Paginación <topics-pagination>`
+    * :ref:`Redirecciones <ref-contrib-redirects>`
+    * :ref:`Serialización <topics-serialization>`
+    * :ref:`Sesiones <topics-http-sessions>`
+    * :ref:`Señales <topics-signals>`
+    * :ref:`Sitemaps <ref-contrib-sitemaps>`
+    * :ref:`Sitios <ref-contrib-sites>`
+    * :ref:`Feeds de sindicación (RSS/Atom) <ref-contrib-syndication>`
+    * :ref:`Unicode en Django <ref-unicode>`
+    * :ref:`Helpers para diseño web <ref-contrib-webdesign>`
+
+El proyecto de código abierto Django
+====================================
+
+    * **Comunidad:** :ref:`Cómo invlucrarse <internals-contributing>` | :ref:`El proceso de release <internals-release-process>` | :ref:`Equipo de committers <internals-committers>`
+    * **Filosofías de diseño:** :ref:`General <misc-design-philosophies>`
+    * **Documentación:** :ref:`Sobre esta documentación <internals-documentation>`
+    * **Distrubiciones de terceras partes:** :ref:`Overview <misc-distributions>`
+    * **Django en el tiempo:** :ref:`Estabilidad de la API <misc-api-stability>` | :ref:`Archivo de notas de versiones <releases-index>` | `Cambios incompatibles hacia atrás`_
+
+.. _Cambios incompatibles hacia atrás changes: http://code.djangoproject.com/wiki/BackwardsIncompatibleChanges
